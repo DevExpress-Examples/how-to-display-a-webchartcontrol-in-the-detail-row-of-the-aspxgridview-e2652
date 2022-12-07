@@ -1,7 +1,7 @@
 ﻿Imports Microsoft.VisualBasic
 Imports System
 Imports System.Web.UI
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 Imports DevExpress.XtraCharts
 Imports DevExpress.XtraCharts.Web
 

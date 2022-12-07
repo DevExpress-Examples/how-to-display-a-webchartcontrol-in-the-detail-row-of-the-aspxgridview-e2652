@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web.UI;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 using DevExpress.XtraCharts;
 using DevExpress.XtraCharts.Web;
 
