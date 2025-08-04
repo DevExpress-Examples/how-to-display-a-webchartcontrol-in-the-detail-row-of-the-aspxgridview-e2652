@@ -1,22 +1,21 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128574412/13.1.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2652)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-[![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+# ASP.NET Web Forms Chart - Display a WebChartControl in the grid detail row
+
+This example illustrates how to use a WebChartControl as a detail template in a ASPxGridView component.
+
+## Implementation Details
+
+* Add a chart to the grid's [DetailRow](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewTemplates.DetailRow) template.
+* Populate the chart with data (using the `Init()` method).
+* Obtain a [GridViewDetailRowTemplateContainer](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDetailRowTemplateContainer) and its [KeyValue](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewBaseRowTemplateContainer.KeyValue) using the [WebChartControl.NamingContainer](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.control.namingcontainer#system-web-ui-control-namingcontainer) property.
+
+## Files to Review
 
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
-<!-- default file list end -->
-# How to display a WebChartControl in the detail row of the ASPxGridView
 
+## Documentation
 
-<p>This example illustrates how to use a WebChartControl as a detail template when implementing master-detail ASPxGridView. To do this, a chart is added to the ASPxGridView.Templates.DetailRow template. Then in the code behind, the chart is populated with data (in the Init() method). The WebChartControl.NamingContainer property is used to obtain a GridViewDetailRowTemplateContainer and its KeyValue to filter a chart data accordingly.</p><p>Please review the <a href="http://documentation.devexpress.com/#AspNet/CustomDocument3772"><u>Master-Detail Relationship</u></a> for more information about the master-detail data presentation in the ASPxGridView</p>
-
-<br/>
-
+* [Master-Detail Relationship](https://docs.devexpress.com/AspNet/3772/components/grid-view/concepts/master-detail-relationship)
 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
